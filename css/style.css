@@ -122,6 +122,8 @@ header /*.container*/ {
 	position: relative;
 }
 .headertext {
+	color:  #ffffff;
+	font-weight: 100;  /*doesn't make it lighter*/
 	width: 1024px;
 	margin-right: auto;
 	margin-left: auto;
@@ -147,6 +149,11 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.projimage img {
+	float: left;
+	width: 490px;
+	padding: 0px 50px 00px 0px;
 }
 .containerworkwithme {
 	background: #11456c;
@@ -207,6 +214,24 @@ header /*.container*/ {
 	margin-left: auto;
 	line-height: .1; 
 }
+footer /*.container*/ {
+	background: #000000;
+	background-size: 100%;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding-left: 0px;
+	padding-right: 0px;
+	position: relative;
+}
+.footertext {
+	text-align: center;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+
 
 /* PROJECT PAGES */
 
@@ -222,6 +247,12 @@ header /*.container*/ {
 .containerprojsetup p.wwm{
 	color: #ffffff;
 }
+.containerprojassessts {
+	background: #ffffff;
+	padding: 200px 0px 200px 0px;  /* top right bottom left*/
+	margin-top: 200px;  /*can't get spacing above/below*/
+	margin-bottom: 200px;
+}
 .containerprojprocess {
 	background: #e0641f;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
@@ -229,6 +260,26 @@ header /*.container*/ {
 .containerprojresults{
 	background: #2abb58;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.projwrapped img {
+	float: center;
+	width: 800px;
+	padding: 0px 50px 00px 0px;
+}
+.projtech img {
+	float: left;
+	width: 65px;
+	padding: 0px 10px 00px 10px;
+}
+.projassests img {
+	float: left;
+	width: 300px;
+	padding: 0px 50px 00px 0px;
+}
+.projassestsMORE img {
+	float: center;  /*does not center image*/
+	width: 950px;
+	padding: 0px 50px 00px 0px;
 }
 
 
