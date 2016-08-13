@@ -141,14 +141,10 @@ header /*.container*/ {
 	color: #000000;
 }
 .containerproject {
-	/*background:  url("..images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;*/
-	background: #dedfe0;
+	/*background not working*/
+	background: url("..images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 	background-size: cover;
-	text-align: left;
-	margin-right: auto;
-	margin-left: auto;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
 .projimage img {
 	float: left;
@@ -236,9 +232,17 @@ footer /*.container*/ {
 /* PROJECT PAGES */
 
 /*why isn't containerproj css working?*/
-.containerproj h4 p {
+.containerproj h4 {
+	font-family: copperplate;
 	text-align: center;
 	line-height: 1;
+}
+.containerproj p {
+	text-align: center;
+	line-height: 1;
+}
+.containerproj {
+	text-align: center;
 }
 .containerprojsetup {
 	background: #8a1b1f;
@@ -262,7 +266,7 @@ footer /*.container*/ {
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
 .projwrapped img {
-	float: center;
+	align: center;
 	width: 800px;
 	padding: 0px 50px 00px 0px;
 }
@@ -281,9 +285,37 @@ footer /*.container*/ {
 	width: 950px;
 	padding: 0px 50px 00px 0px;
 }
-
-
-
+/*FRESHWAVE*/
+.containerprojsetupFW {
+	background: #a7dde4;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojprocessFW {
+	background: #e05920;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojresultsFW{
+	background: #1596a5;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+/*SCHOOLDEETS*/
+.containerprojsetupSD {
+	background: #0a769a;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojprocessSD {
+	background: #ef6c34;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojresultsSD{
+	background: #53c4c6;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojassestsMORESD img {
+	float: center;  /*does not center image*/
+	width: 300px;
+	padding: 0px 50px 00px 0px;
+}
 
 
 
