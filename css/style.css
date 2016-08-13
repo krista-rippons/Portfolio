@@ -123,6 +123,7 @@ header /*.container*/ {
 }
 .headertext {
 	color:  #ffffff;
+	text-align: left;
 	font-weight: 100;  /*doesn't make it lighter*/
 	width: 1024px;
 	margin-right: auto;
@@ -149,6 +150,12 @@ header /*.container*/ {
 .projimage img {
 	float: left;
 	width: 490px;
+	padding: 0px 50px 00px 0px;
+}
+/*not working for icons in workwithme section*/
+.projimageW img {
+	float: left;
+	width: 50px;
 	padding: 0px 50px 00px 0px;
 }
 .containerworkwithme {
@@ -270,6 +277,11 @@ footer /*.container*/ {
 	width: 800px;
 	padding: 0px 50px 00px 0px;
 }
+.projwrappedWPR img {
+	align: center;
+	width: 150px;
+	padding: 0px 50px 00px 0px;
+}
 .projtech img {
 	float: left;
 	width: 65px;
@@ -280,9 +292,16 @@ footer /*.container*/ {
 	width: 300px;
 	padding: 0px 50px 00px 0px;
 }
+
+/*allprojectpages*/
 .projassestsMORE img {
 	float: center;  /*does not center image*/
 	width: 950px;
+	padding: 0px 50px 00px 0px;
+}
+.sectiondivider img {
+	float: center;  /*does not center image*/
+	width: 1200px;
 	padding: 0px 50px 00px 0px;
 }
 /*FRESHWAVE*/
@@ -316,10 +335,46 @@ footer /*.container*/ {
 	width: 300px;
 	padding: 0px 50px 00px 0px;
 }
-
-
-
-
+/*ARTISAN STYLE*/
+.containerprojsetupAS {
+	background: #42214a;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojsetupAS {
+	color: #ffffff;
+}
+.containerprojprocessAS {
+	background: #845864;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojresultsAS{
+	background: #108462;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+/*POCKETS*/
+.containerprojsetupP {
+	background: #172654;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojsetupP {
+	color: #ffffff;
+}
+.containerprojprocessP {
+	background: #8ab93f;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojresultsP{
+	background: #9ec9d4;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+/*WINTERPR*/
+.containerprojsetupW {
+	background: #1e388d;  /*green alternative #acdb55*/
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+.containerprojsetupW {
+	color: #ffffff;
+}
 
 
 
