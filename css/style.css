@@ -275,6 +275,12 @@ footer /*.container*/ {
 	text-align: left;
 	margin-left: 200px;
 }
+.flower img {
+	align: center;
+	max-width: 1000px;
+	height: 500px;
+	padding: 200px 0px 200px 0px;  /* top right bottom left*/
+}
 /* PROJECT PAGES */
 
 /*why isn't containerproj css working?*/
