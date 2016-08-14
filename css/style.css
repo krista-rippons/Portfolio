@@ -42,12 +42,12 @@
    color: #ffffff;
 }
   h5 {
-   font-size: 36px; 
+   font-size: 24px; 
    text-align: center; 
-   font-weight: bold;
+   font-weight: lighter;
    margin-top: 10px;
    margin-bottom: 10px;
-   line-height: .5;
+   line-height: 2;
 }
 p {
    text-align: left;
@@ -139,11 +139,7 @@ header /*.container*/ {
 .containerhero p {
 	color: #16191c;
 }
-.contactimg {
-	width: 150px;
-	height: 75px;
-	padding: 0px 50px 50px 50px;
-}
+
 
 .containerproject {
 	/*background not working*/
@@ -240,11 +236,45 @@ footer /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 }
+/* CONTACT PAGE */
+.contactborder {
+	background: #f69224;
+	height: 6px;
+}
+.contact {
+	background: url("Portfolio/images/blackwithrain.png") alt="background";
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 4em 0;
+}
+.contact {
+	background: #16191c;
+	padding: 200px 0px 200px 0px;  /* top right bottom left*/
+}
+.contact {
+	height:1200px;
+	padding: 100px 50px 100px 50px;
+}
+.contact h5 {
+	text-align: center;
+	color: #ffffff;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: .8; 
+}
+.contact h3 {
+	font-size: 16pt;
+	text-align: left;
+	color: #ffffff;
+	margin-left: 200px;
+}
 
-
-
-
-
+/*trying to left align input boxes and send button with Name Email and Message*/
+.contactinput {
+	text-align: left;
+	margin-left: 200px;
+}
 /* PROJECT PAGES */
 
 /*why isn't containerproj css working?*/
