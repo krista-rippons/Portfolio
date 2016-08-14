@@ -1,18 +1,16 @@
  html, body{
    overflow-x: hidden;
  }
- /*need to change color from #000000*/
- /*copperplate and candara not working...load in fonts?*/
  body {
    text-align: left;
    font-family: "Raleway", Copperplate, Candara;
-   font color: #000000;
+   font color: #16191c;
    line-height:  1.4;
  }
  h1, h2, h3, h4 {
    text-align: left;
    font-family: "Raleway", Copperplate; Candara;
-   font color: #000000;
+   font color: #16191c;
  }
  h1 {
    font-size: 24px; 
@@ -41,6 +39,7 @@
    margin-top: 40px;
    margin-bottom: 30px;
    line-height: .5;
+   color: #ffffff;
 }
   h5 {
    font-size: 36px; 
@@ -114,50 +113,49 @@ header nav ul > li > a {
 
 
 header /*.container*/ {
-	background: #000000;
+	background: #16191c;
 	background-size: 100%;
 	padding: 1em 0;
 	padding-left: 0px;
 	padding-right: 0px;
 	position: relative;
 }
-.headertext {
+.headertext h1 h2 h3 h4 p {
 	color:  #ffffff;
 	text-align: left;
-	font-weight: 100;  /*doesn't make it lighter*/
 	width: 1024px;
 	margin-right: auto;
 	margin-left: auto;
 }
 .containerhero {
-	text-align: center;
+	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 4em 0;
 }
 .containerhero h1, h3 {
-	color: #000000;
+	color: #16191c;
 }
 .containerhero p {
-	color: #000000;
+	color: #16191c;
 }
+.contactimg {
+	width: 150px;
+	height: 75px;
+	padding: 0px 50px 50px 50px;
+}
+
 .containerproject {
 	/*background not working*/
-	background: url("..images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
+	background: url("images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 	background-size: cover;
 }
 .projimage img {
-	float: left;
-	width: 490px;
-	padding: 0px 50px 00px 0px;
+	width: 550px;
+	padding: 0px 50px 50px 50px;
 }
-/*not working for icons in workwithme section*/
-.projimageW img {
-	float: left;
-	width: 50px;
-	padding: 0px 50px 00px 0px;
-}
+
 .containerworkwithme {
 	background: #11456c;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
@@ -192,6 +190,17 @@ header /*.container*/ {
 	margin-left: auto;
 	line-height: 1; 
 }
+/*not working for icons in workwithme section*/
+.projimageW img {
+	float: left;
+	width: 65px;
+	padding: 0px 10px 00px 10px;
+}
+.containerworkwithmeicons {
+	background: #11456c;
+	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+}
+
 .containerworkhistory h4 {
 	color: #0e3b5d;
 	text-align: left;
@@ -218,7 +227,7 @@ header /*.container*/ {
 	line-height: .1; 
 }
 footer /*.container*/ {
-	background: #000000;
+	background: #16191c;
 	background-size: 100%;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 	padding-left: 0px;
@@ -283,12 +292,12 @@ footer /*.container*/ {
 	padding: 0px 50px 00px 0px;
 }
 .projtech img {
-	float: left;
+	float: center;
 	width: 65px;
 	padding: 0px 10px 00px 10px;
 }
 .projassests img {
-	float: left;
+	float: center;
 	width: 300px;
 	padding: 0px 50px 00px 0px;
 }
