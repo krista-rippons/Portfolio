@@ -249,11 +249,12 @@ footer /*.container*/ {
 	padding: 4em 0;
 }
 .contact {
+	background: url("../images/black-bokeh-background_zyoeuauu.jpg.png") top center no-repeat;
 	background: #16191c;
 	padding: 200px 0px 200px 0px;  /* top right bottom left*/
 }
 .contact {
-	height:1200px;
+	height:1000px;
 	padding: 100px 50px 100px 50px;
 }
 .contact h5 {
@@ -286,6 +287,7 @@ footer /*.container*/ {
 /*why isn't containerproj css working?*/
 .containerproj h4 {
 	font-family: copperplate;
+	color: #16191c;
 	text-align: center;
 	line-height: 1;
 }
@@ -322,9 +324,19 @@ footer /*.container*/ {
 	width: 800px;
 	padding: 0px 50px 00px 0px;
 }
+.projwrappedSD img {
+	align: center;
+	width: 1000px;
+	padding: 0px 50px 00px 0px;
+}
 .projwrappedWPR img {
 	align: center;
 	width: 150px;
+	padding: 0px 50px 00px 0px;
+}
+.projassetsWPR img {
+	align: center;  /*does not center images???*/
+	width: 400px;
 	padding: 0px 50px 00px 0px;
 }
 .projtech img {
@@ -342,6 +354,11 @@ footer /*.container*/ {
 .projassestsMORE img {
 	float: center;  /*does not center image*/
 	width: 950px;
+	padding: 0px 50px 00px 0px;
+}
+.containerprojassestsMOREAS img {
+	float: center;  /*does not center image*/
+	width: 1200px;
 	padding: 0px 50px 00px 0px;
 }
 .sectiondivider img {
