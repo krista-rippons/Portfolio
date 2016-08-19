@@ -349,6 +349,11 @@ footer /*.container*/ {
 	width: 300px;
 	padding: 0px 50px 00px 0px;
 }
+.containerprojassestsMOREP img {
+	float: center;
+	width: 1100px;
+	padding: 0px 50px 00px 0px;
+}
 
 /*allprojectpages*/
 .projassestsMORE img {
@@ -415,14 +420,15 @@ footer /*.container*/ {
 }
 /*POCKETS*/
 .containerprojsetupP {
-	background: #172654;
+	background: #003764;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
 .containerprojsetupP {
 	color: #ffffff;
 }
 .containerprojprocessP {
-	background: #8ab93f;
+	color:  #ffffff;
+	background: #DE330E;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
 .containerprojresultsP{
