@@ -93,7 +93,6 @@ p {
 header .KRlogo img {
 	float: right;
 	width: 400px;
-	padding: 0px 50px 00px 0px;
 }
 header nav {
 	padding: 1em 0;
@@ -103,14 +102,27 @@ header nav ul {
 	text-align: left;
 	float: left;
 }
+header .text-right {
+	text-align: right
+}
 header nav ul > li {
 	list-style-type: none;
 	display: inline-block;
 }
 header nav ul > li > a {
 	color: #ffffff;
-	text-decoration: none;
-	padding: 0px 25px 0px 0px;  
+}
+
+/* BUTTONS */
+
+.btn {
+	font-size: 18pt;
+	border-radius: 4px;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	background: #f69224;
+	border: 2px solid #f69224;
+	box-shadow: 0px 2px 0px 0px #c97518;
 }
 
 /* CONTAINERS */
@@ -144,8 +156,15 @@ header /*.container*/ {
 .containerproject {
 	/*background not working*/
 	background: url("images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
-	padding: 75px 0px 75px 50px;  /* top right bottom left*/
+	padding: 75px 0px 0px 50px;  /* top right bottom left*/
 	background-size: cover;
+}
+.containerproject h5 {
+	font-style: underline;
+	font-weight: lighter;
+	color: #11456c;
+	text-align: center;
+
 }
 .projimage img {
 	width: 550px;
