@@ -140,7 +140,11 @@
             <h4>Click HERE<a href="index.html"<img src="KristaRippons_CV(v2).docx" /></a> to download CV</h4>
        </div>
     </section>
-    <a href="index.html" class="sectiondivider"><img src="images/Section Divider.png" /></a>
+    <section>
+        <div class="sectiondivider">
+            <img src="images/Section Divider.png" alt="line">
+        </div>
+    </section>
     <section class="containereducation">
         <div class="container">
             <h1>Education</h1>
@@ -526,14 +530,15 @@ Your browser does not support the video tag.
         </div> 
             <div class="containercontact">  <!--???these don't left align -->  
                 <form action="https://formspree.io/krista.rippons@gmail.com" method="POST">
-                    <h3>Name</h3>
+                    <label>Name</label>
                     <input type="text" name="Name">
-                    <h3>Email Address</h3>
+                    <label>Email Address</label>
                     <input type="email" name="Email Address">
-                    <h3>Message</h3>
+                    <label>Message</label>
                     <input type= <textarea rows="8" cols="50"></textarea> name="Message">
-                    <input type="submit" value="Send">  <!--I see "Send" on github but not my desktop, OK?, why? -->
-                    <!--added Name (didn't change since I already have <h3> im guessing.  textarea is not working properly...)
+                    <input type="submit" value="Send">
+                    <!--I see "Send" on github but not my desktop, OK?, why? -->
+                    <!--added Name (didn't change since I already have <h3> im guessing.  textarea is not working properly...) -->
                 </form>
             </div>   
     </section>
@@ -550,12 +555,16 @@ Your browser does not support the video tag.
                         <a href="index.html" class="KRlogo"><img src="images/KRlogowhite.png" alt="Krista Rippons" /></a>
                     <div class="col-xs-12">
                     </div>
-                <div class="row">
+            </div>
+            <div class="footertext2">    
+                    <div class="row">
                     <div class="col-xs-12">  <!--???needs spacing between eash element -->
-                        <a href="index.html" class="KRlogo"><img src="images/linkicon.png" alt="Krista's Portfolio" /></a> <a href="index.html" class="contactimg"><img src="images/CONTACTBUTTON copy.png" alt="Contact" /></a>
+                        <a href="index.html" class="KRlogo"><img src="images/linkicon.png" alt="Krista's Portfolio" /></a> 
+                        <a href="contact.html" class="btn">Contact</a>
                         <a href="index.html" class="KRlogo"><img src="images/linkedin.png" alt="LinkedIn" /></a>
                     </div>
                 </div>
+            </div>    
         </nav>
     </footer>
 </main>

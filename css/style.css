@@ -213,6 +213,12 @@ header /*.container*/ {
 	margin-left: auto;
 	line-height: 1; 
 }
+.sectiondivider {
+	display: block;
+	align: center;
+	margin-left:  auto;
+	margin-right: auto;
+}
 /*not working for icons in workwithme section*/
 .projimageW img {
 	float: left;
@@ -263,12 +269,17 @@ footer /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 }
+.footertext2 {
+	margin-right: 200px;
+	margin-left: 200px;
+}
 /* CONTACT PAGE */
 .contactborder {
 	background: #f69224;
 	height: 6px;
 }
 .containercontact {  /*trying to left align input boxes and send button with Name Email and Message*/
+	display: block;
 	padding: 200px 0px 200px 0px;  /* top right bottom left*/
 }
 .contact {
