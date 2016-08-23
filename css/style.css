@@ -393,9 +393,10 @@ footer /*.container*/ {
 	background: #53c4c6;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
-.link {  /*???why not centered?*/
+.link {  /*???why not centered? why font size not working?*/
 	display: block;
 	align: center
+	font-size: 72px;
 }
 
 
