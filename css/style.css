@@ -58,13 +58,6 @@ img {
 	max-width: 100%
 }
 
-/*p .center {
-   color: #ffffff;
-   text-align: center;
-   font-size: 18px;  
-   font-weight: 100;
-}*/
-
 /* GRID */
 
 .container {
@@ -151,6 +144,7 @@ header /*.container*/ {
 	font-weight: lighter;
 }
 
+
 .containerhero {
 	text-align: left;
 	margin-right: auto;
@@ -159,26 +153,17 @@ header /*.container*/ {
 }
 
 
-.text-right {
-	text-align: right
-}
-
-.containerproject {
-	/*background not working*/
-	background: url("images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
-	padding: 75px 0px 0px 50px;  /* top right bottom left*/
-	background-size: cover;
-}
-.containerproject h5 {
-	font-style: underline;
-	font-weight: lighter;
-	color: #11456c;
-	text-align: center;
-
+/*???need to update sectioin divider*/
+.sectiondivider {
+	display: block;
+	align: center;
+	margin-left:  auto;
+	margin-right: auto;
 }
 .sectiondiv {  /*???why doesn't this center*/
 	align: center;
 }
+
 
 .containerworkwithme {
 	background: #11456c;
@@ -214,19 +199,18 @@ header /*.container*/ {
 	margin-left: auto;
 	line-height: 1; 
 }
-.sectiondivider {
-	display: block;
-	align: center;
-	margin-left:  auto;
-	margin-right: auto;
-}
-/*not working for icons in workwithme section*/
-
 .containerworkwithmeicons {
 	background: #11456c;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
 
+
+.containerworkhistory {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 50px 50px 50px;
+}
 .containerworkhistory h4 {
 	color: #0e3b5d;
 	text-align: left;
@@ -240,7 +224,14 @@ header /*.container*/ {
 	margin-left: auto;
 	line-height: .1; 
 }
-/*trying to tighten up line height - not working*/
+
+
+.containereducation {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 50px 50px 50px;
+}
 .containereducation h1 p {
 	line-height: .1; 
 	padding: 0;
@@ -251,6 +242,21 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 	line-height: .1; 
+}
+.text-right {
+	text-align: right
+}
+.containerproject {
+	/*background not working*/
+	background: url("images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
+	padding: 75px 0px 0px 50px;  /* top right bottom left*/
+	background-size: cover;
+}
+.containerproject h5 {
+	font-style: underline;
+	font-weight: lighter;
+	color: #11456c;
+	text-align: center;
 }
 footer /*.container*/ {
 	background: #16191c;
@@ -270,6 +276,8 @@ footer /*.container*/ {
 	margin-right: 200px;
 	margin-left: 200px;
 }
+
+
 /* CONTACT PAGE */
 .contactborder {
 	background: #f69224;
@@ -302,9 +310,9 @@ footer /*.container*/ {
 	margin-left: 200px;
 }
 
+
 /* PROJECT PAGES */
 
-/*why isn't containerproj css working?*/
 .containerproj h4 {
 	font-family: copperplate;
 	color: #16191c;
@@ -342,14 +350,14 @@ footer /*.container*/ {
 	background: #2abb58;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
-
-
-
-/*allprojectpages*/
-
 .containerprojassests {
 	align: center;  /*???does not center image*/
 }
+
+
+/*DFTF*/
+
+
 
 /*FRESHWAVE*/
 .containerprojsetupFW {
@@ -368,6 +376,8 @@ footer /*.container*/ {
 	background: #1596a5;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
+
+
 /*SCHOOLDEETS*/
 .containerprojsetupSD {
 	color: #ffffff;
@@ -388,6 +398,8 @@ footer /*.container*/ {
 	width: 1000px;  /*???why doesn't work to make image larger*/
 	padding: 0px 50px 00px 0px;
 }
+
+
 /*ARTISAN STYLE*/
 .containerprojsetupAS {
 	background: #42214a;
@@ -406,6 +418,8 @@ footer /*.container*/ {
 	background: #108462;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
+
+
 /*POCKETS*/
 .containerprojsetupP {
 	background: #003764;
@@ -425,6 +439,8 @@ footer /*.container*/ {
 	background: #9ec9d4;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
+
+
 /*WINTERPR*/
 .containerprojsetupW {
 	background: #1e388d;  /*green alternative #acdb55*/
