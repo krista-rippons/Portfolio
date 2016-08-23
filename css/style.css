@@ -326,10 +326,7 @@ footer /*.container*/ {
 .containerproj {
 	text-align: center;
 }
-.containerprojsetup {
-	background: #8a1b1f;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
-}
+
 .containerprojsetup {
 	color: #ffffff;
 }
@@ -339,42 +336,47 @@ footer /*.container*/ {
 	margin-top: 200px;  /*can't get spacing above/below*/
 	margin-bottom: 200px;
 }
-.containerprojprocess {
-	float: center;  /*???why doesn't this center image*/
-	color:  #ffffff;
-	background: #e0641f;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
-}
-.containerprojresults{
-	color: #ffffff;
-	background: #2abb58;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
-}
+
+
 .containerprojassests {
 	align: center;  /*???does not center image*/
 }
 
 
 /*DFTF*/
-
-
+.containerprojsetup {
+	background: #8a1b1f;
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
+}
+.containerprojprocess {
+	float: center;  /*???why doesn't this center image*/
+	color:  #ffffff;
+	background: #e0641f;
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
+}
+.containerprojresults{
+	color: #ffffff;
+	background: #2abb58;
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
+}
 
 /*FRESHWAVE*/
 .containerprojsetupFW {
 	color: #ffffff;
 	text-shadow: #000000; /*???why doesn't shadow appear*/
 	background: #a7dde4;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
+
 }
 .containerprojprocessFW {
 	color: #ffffff;
 	background: #e05920;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsFW{
 	color: #ffffff;	
 	background: #1596a5;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
 
@@ -382,48 +384,43 @@ footer /*.container*/ {
 .containerprojsetupSD {
 	color: #ffffff;
 	background: #0a769a;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojprocessSD {
 	color: #ffffff;
 	background: #ef6c34;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsSD{
 	color: #ffffff;
 	background: #53c4c6;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 
-.containerprojassestsSDdata {
-	width: 1000px;  /*???why doesn't work to make image larger*/
-	padding: 0px 50px 00px 0px;
-}
 
 
 /*ARTISAN STYLE*/
-.containerprojsetupAS {
+
+.containerprojsetupAS {	
 	background: #42214a;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
-}
-.containerprojsetupAS {
+	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 	color: #ffffff;
 }
 .containerprojprocessAS {
 	color: #ffffff;
 	background: #845864;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
 .containerprojresultsAS{
 	color: #ffffff;
 	background: #108462;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
 
 
 /*POCKETS*/
 .containerprojsetupP {
 	background: #003764;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojsetupP {
 	color: #ffffff;
@@ -431,20 +428,20 @@ footer /*.container*/ {
 .containerprojprocessP {
 	color:  #ffffff;
 	background: #DE330E;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsP{
 	color: #ffffff;
 	text-shadow: #000000;
 	background: #9ec9d4;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
 
 /*WINTERPR*/
 .containerprojsetupW {
 	background: #1e388d;  /*green alternative #acdb55*/
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojsetupW {
 	color: #ffffff;
