@@ -153,15 +153,12 @@ header /*.container*/ {
 }
 
 
-/*???need to update sectioin divider*/
-.sectiondivider {
+
+.sectiondivider {   /*???does not center*/
 	display: block;
 	align: center;
 	margin-left:  auto;
 	margin-right: auto;
-}
-.sectiondiv {  /*???why doesn't this center*/
-	align: center;
 }
 
 
@@ -395,6 +392,10 @@ footer /*.container*/ {
 	color: #ffffff;
 	background: #53c4c6;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
+}
+.link {  /*???why not centered?*/
+	display: block;
+	align: center
 }
 
 
