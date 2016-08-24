@@ -256,7 +256,6 @@ header /*.container*/ {
 	padding: 50px 50px 50px 50px;
 }
 .containereducation h1 p {
-	line-height: .1; 
 	padding: 0;
 }
 .containereducation h4 {
@@ -264,7 +263,6 @@ header /*.container*/ {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-	line-height: .1; 
 }
 .text-right {
 	text-align: right
