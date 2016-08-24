@@ -133,7 +133,13 @@ header nav ul > li > a {
 	text-decoration: none;
 	display: inline-block;
 }
-.btnPrj {
+.btnclose {
+	display: block;
+	font-size: 36px;
+	color: #ffffff;
+	text-align: right;
+	text-decoration: none;
+	padding: 0px 75px 0px 0px;/* top right bottom left*/
 }
 .btnFooter {
 	font-size: 18pt;
@@ -292,7 +298,7 @@ footer /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 }
- 
+
 
 /* CONTACT PAGE */
 .contactborder {
@@ -319,11 +325,18 @@ footer /*.container*/ {
 	color: #ffffff;
 	margin-left: 200px;
 }
+.footer p {
+	font-size: 16pt;
+	text-align: left;
+	color: #ffffff;
+	margin-left: 200px;
+}
 .containercontact {
 	display: block;
 	max-width: 320px;
 	margin: auto;
 	padding: 0;
+
 }
 .contact label {
 	color: white;
@@ -337,7 +350,9 @@ footer /*.container*/ {
 	width: 100%;
 	margin-bottom: 20px
 }
-
+.contactexit {
+	align: right;
+}
 /* PROJECT PAGES */
 
 .containerproj h4 {
