@@ -38,7 +38,6 @@
    font-weight: bold;
    margin-top: 40px;
    margin-bottom: 30px;
-   line-height: .5;
    color: #ffffff;
 }
   h5 {
@@ -61,10 +60,12 @@ img {
 /* GRID */
 
 .container {
-	width: 100%; 
+	/* delete?width: 100%; */
+	max-width: 1280px;
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
+	padding: 50px 50px 50px 50px;
 }
 
 .container:before,
@@ -116,16 +117,30 @@ header nav ul > li > a {
 	background: #f69224;
 	border: 2px solid #f69224;
 	box-shadow: 0px 2px 0px 0px #c97518;
-	text-decoration: none
+	text-decoration: none;
+	display: inline-block;
+	text-align: center;
 }
 .btnHome {
 	font-size: 18pt;
 	color: #FFFFFF;
-	text-decoration: none
+	text-decoration: none;
+	display: inline-block;
 }
-}.btnPrj {
+.btnPrj {
+}
+.btnFooter {
 	font-size: 18pt;
-	color: #16191c;
+	border-radius: 4px;
+	color: #FFFFFF;
+	padding: 10px 30px;
+	background: #f69224;
+	border: 2px solid #f69224;
+	box-shadow: 0px 2px 0px 0px #c97518;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 40px;/* top right bottom left*/
+	text-align: center;
 }
 
 /* CONTAINERS */
@@ -142,6 +157,7 @@ header /*.container*/ {
 .headertext h1 {
 	color:  #ffffff;
 	font-weight: lighter;
+	margin: 0;
 }
 
 
@@ -149,22 +165,20 @@ header /*.container*/ {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 50px 50px 50px 50px;
+	padding: 25px 25px 25px 25px;
 }
 
 
 
-.sectiondivider {   /*???does not center*/
-	display: block;
-	align: center;
-	margin-left:  auto;
-	margin-right: auto;
+.sectiondivider {  
+	text-align: center;
+
 }
 
 
 .containerworkwithme {
 	background: #11456c;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerworkwithme h1, h2 {
 	color: #ffffff;
@@ -179,6 +193,7 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 	line-height: 1; 
+	margin: 0;
 }
 .containerworkwithme p {
 	color: #ffffff;
@@ -200,7 +215,9 @@ header /*.container*/ {
 	background: #11456c;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
-
+.text-center {
+	text-align: center;
+}
 
 .containerworkhistory {
 	text-align: left;
@@ -213,15 +230,15 @@ header /*.container*/ {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-	line-height: .2; 
+	margin-bottom: 0;
 }
 .containerworkhistory p {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-	line-height: .1; 
+	margin: 0;
 }
-
+/*margin 0 to clean up  remove much this text-align...*/
 
 .containereducation {
 	text-align: left;
@@ -245,8 +262,8 @@ header /*.container*/ {
 }
 .containerproject {
 	/*background not working*/
-	background: url("images/PortfolioBackground.jpeg") alt="grunge"/></a> top center no-repeat;
-	padding: 75px 0px 0px 50px;  /* top right bottom left*/
+	background: url("images/PortfolioBackground") alt="grunge"/></a> top center no-repeat;
+	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 	background-size: cover;
 }
 .containerproject h5 {
@@ -265,34 +282,23 @@ footer /*.container*/ {
 }
 .footertext {
 	text-align: center;
-	width: 1024px;
 	margin-right: auto;
 	margin-left: auto;
 }
-.footertext2 {
-	margin-right: 200px;
-	margin-left: 200px;
-}
-
+ 
 
 /* CONTACT PAGE */
 .contactborder {
 	background: #f69224;
 	height: 6px;
 }
-.containercontact {  /*trying to left align input boxes and send button with Name Email and Message*/
-	display: block;
-	padding: 200px 0px 200px 0px;  /* top right bottom left*/
-}
 .contact {
-	background: url("Portfolio/images/blackwithrain.png") alt="background"; /*doesn't work*/
+	background: url("/images/black-bokeh-background_zyoeuauu.jpg") alt="background"; /*doesn't work*/
 	background-size: cover;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 4em 0;
 	background: #16191c;
-	padding: 200px 0px 200px 0px;  /* top right bottom left*/
-	max-height: 1200px;
 }
 .contact h5 {
 	text-align: center;
@@ -306,7 +312,17 @@ footer /*.container*/ {
 	color: #ffffff;
 	margin-left: 200px;
 }
-
+.containercontact {
+	max-width: 320px;
+	margin: auto;
+}
+.contact label {
+	color: white;
+}
+.contact textarea {
+	width: 100%;
+	margin-bottom: 20px
+}
 
 /* PROJECT PAGES */
 
@@ -327,16 +343,23 @@ footer /*.container*/ {
 .containerprojsetup {
 	color: #ffffff;
 }
-.containerprojassessts {
+/*.containerprojassessts {
 	background: #ffffff;
-	padding: 200px 0px 200px 0px;  /* top right bottom left*/
-	margin-top: 200px;  /*can't get spacing above/below*/
+	padding: 200px 0px 200px 0px;  /* top right bottom left
+	margin-top: 200px;  /*can't get spacing above/below
 	margin-bottom: 200px;
 }
-
-
-.containerprojassests {
-	align: center;  /*???does not center image*/
+.containerprojassessts{
+	display: block;
+	margin: 20px;
+	max-width: 100%;
+	align: center;  /*???does not center image
+} */
+.containerprojassessts{
+	display: block;
+	margin: 20px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -397,6 +420,11 @@ footer /*.container*/ {
 	display: block;
 	align: center
 	font-size: 72px;
+}
+.iframe {  /*not working to center movie*/
+	display: block;
+	margin: 20px;
+	max-width: 100%
 }
 
 
