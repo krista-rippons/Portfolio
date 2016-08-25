@@ -302,7 +302,7 @@ header /*.container*/ {
 footer /*.container*/ {
 	background: #16191c;
 	background-size: 100%;
-	padding: 75px 0px 75px 0px;  /* top right bottom left*/
+	padding: 30px 0px 30px 0px;  /* top right bottom left*/
 	padding-left: 0px;
 	padding-right: 0px;
 	position: relative;
@@ -312,6 +312,10 @@ footer /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 }
+.footertext2 {
+	padding: 100px 0px 0px 0px;  /* top right bottom left*/
+}
+
 
 
 /* CONTACT PAGE */
