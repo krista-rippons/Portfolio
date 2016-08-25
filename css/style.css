@@ -274,17 +274,31 @@ header /*.container*/ {
 	text-align: right
 }
 .containerproject {
-	/*background not working*/
-	background: url("images/PortfolioBackground") alt="grunge"/></a> top center no-repeat;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 	background-size: cover;
-}
+}	
 .containerproject h5 {
 	font-style: underline;
 	font-weight: lighter;
 	color: #11456c;
 	text-align: center;
 }
+.projimages {
+	padding: 0;  /* top right bottom left*/
+}
+.proj-link {
+	display: block;
+	margin: 20px 0;
+	max-width: 300px;
+}
+.proj-background {
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+}
+/*.proj-img {
+	display: block;
+}*/
 footer /*.container*/ {
 	background: #16191c;
 	background-size: 100%;
@@ -306,7 +320,7 @@ footer /*.container*/ {
 	height: 6px;
 }
 .contact {
-	background: url("/images/black-bokeh-background_zyoeuauu.jpg") alt="background"; /*doesn't work*/
+	background: url("/images/blackbackgroundV1") alt="background"; /*doesn't work*/
 	background-size: cover;
 	margin-right: auto;
 	margin-left: auto;
