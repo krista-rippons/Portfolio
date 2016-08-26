@@ -113,7 +113,7 @@ header nav ul > li > a {
 	color: #ffffff;
 }
 
-/* BUTTONS */
+/* BUTTONS c97518*/
 
 .btn {
 	font-size: 18pt;
@@ -408,42 +408,47 @@ footer /*.container*/ {
  	margin-top: 20px;
 	text-align: center;
 	margin: 20px auto; 
-	/*border: 5px solid red;*/
 }
 
 
 /*DFTF*/
 .containerprojsetup {
+	color:  #ffffff;
+	text-shadow: 1px 1px #000000; 
 	background: #8a1b1f;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojprocess {
-	float: center;  /*???why doesn't this center image*/
+	float: center;  
 	color:  #ffffff;
+	text-shadow: 1px 1px #000000; 
 	background: #e0641f;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresults{
 	color: #ffffff;
+	text-shadow: 1px 1px #000000; 
 	background: #2abb58;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
-/*FRESHWAVE*/
+/*FRESHWAVE  16191c*/
 .containerprojsetupFW {
 	color: #ffffff;
-	text-shadow: #000000; /*???why doesn't shadow appear*/
-	background: #a7dde4;
+	text-shadow: 1px 1px #000000;  
+	background: #358d97;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 
 }
 .containerprojprocessFW {
 	color: #ffffff;
+	text-shadow: 1px 1px #000000; 
 	background: #e05920;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsFW{
 	color: #ffffff;	
+	text-shadow: 1px 1px #000000; 
 	background: #1596a5;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
@@ -452,16 +457,19 @@ footer /*.container*/ {
 /*SCHOOLDEETS*/
 .containerprojsetupSD {
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #0a769a;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojprocessSD {
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #ef6c34;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsSD{
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #53c4c6;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
@@ -480,17 +488,21 @@ footer /*.container*/ {
 /*ARTISAN STYLE*/
 
 .containerprojsetupAS {	
+	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #42214a;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 	color: #ffffff;
 }
 .containerprojprocessAS {
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #845864;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
 .containerprojresultsAS{
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #108462;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
@@ -503,16 +515,18 @@ footer /*.container*/ {
 }
 .containerprojsetupP {
 	color: #ffffff;
+	text-shadow: 1px 1px #000000;
 }
 .containerprojprocessP {
 	color:  #ffffff;
+	text-shadow: 1px 1px #000000;
 	background: #DE330E;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsP{
 	color: #ffffff;
-	text-shadow: #000000;
-	background: #9ec9d4;
+	text-shadow: 1px 1px #000000;
+	background: #658396;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
