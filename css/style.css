@@ -41,7 +41,7 @@
    color: #ffffff;
 }
   h5 {
-   font-size: 24px; 
+   font-size: 36px; 
    text-align: center; 
    font-weight: bold;
    margin-top: 10px;
@@ -185,6 +185,8 @@ header /*.container*/ {
 
 .sectiondivider {  
 	text-align: center;
+	padding: 0px;
+	margin: 0px;
 }
 .sectiondividerHOME {  
 	text-align: center;
@@ -344,18 +346,7 @@ footer /*.container*/ {
 	padding: 4em 0;
 	background: #16191c;
 }
-.contact h5 {
-	text-align: center;
-	color: #ffffff;
-	margin-right: auto;
-	margin-left: auto;
-}
-.contact h3 {
-	font-size: 16pt;
-	text-align: left;
-	color: #ffffff;
-	margin-left: 200px;
-}
+
 .footer p {
 	font-size: 16pt;
 	text-align: left;
