@@ -291,13 +291,11 @@ header /*.container*/ {
 .text-right {
 	text-align: right
 }
-.projimages {
-	padding: 0;  /* top right bottom left*/
-}
+
 .proj-link {
 	display: block;
 	margin: 20px 0;
-	max-width: 250px;
+	
 }
 .proj-img {
 	display: block;
