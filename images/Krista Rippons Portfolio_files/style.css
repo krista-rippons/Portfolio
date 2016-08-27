@@ -41,7 +41,7 @@
    color: #ffffff;
 }
   h5 {
-   font-size: 24px; 
+   font-size: 36px; 
    text-align: center; 
    font-weight: bold;
    margin-top: 10px;
@@ -49,22 +49,14 @@
    line-height: 2;
 }
  h6 {
-   color: #0e3b5d;
    font-size: 16px; 
-   margin-top: 20px;
-   margin-bottom: 0px;
-   line-height: 1.0;
+   margin-top: 40px;
+   margin-bottom: 30px;
+   line-height: 1.1;
  }
-
 p {
    text-align: left;
-   font-size: 16px;  
-   font-weight: 100;
-}
-p.bold {
-   text-decoration: bold;
-   text-align: left;
-   font-size: 16px;  
+   font-size: 18px;  
    font-weight: 100;
 }
 img {
@@ -78,7 +70,7 @@ img {
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	padding: 100px 40px 50px 40px;  /* top right bottom left*/
+	padding: 0px 50px 50px 50px;  /* top right bottom left*/
 }
 
 .container:before,
@@ -101,11 +93,8 @@ img {
 	margin: 0 2% 20px;
 }
 
-header {
+header nav {
 	padding: 1em 0;
-    height: auto;
-    width: 100%;
-    z-index: 100
 }
 header nav ul {
 	display: inline;
@@ -184,8 +173,7 @@ header /*.container*/ {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin: 0;
-	position: fixed;
-	top: 2px;
+	position: relative;
 }
 .headertext h6 {
 	color:  #ffffff;
@@ -196,9 +184,9 @@ header /*.container*/ {
 	text-align: left;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 125px;
+	margin-top: 0;
 	margin-bottom: 0;
-	padding: 0px 0px 0px 250px;
+	padding: 0px 25px 0px 25px;
 }
 
 
@@ -220,13 +208,11 @@ header /*.container*/ {
 	background: #11456c;
 	padding: 20px 50px 0px 50px;  /* top right bottom left*/
 }
-.containerworkwithme h1, h4 {
+.containerworkwithme h1, h2 {
 	color: #ffffff;
-	font-weight: lighter;
 	text-align:  center;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 10px;
 	line-height: 1; 
 }
 .containerworkwithme h3 {
@@ -239,11 +225,9 @@ header /*.container*/ {
 }
 .containerworkwithme p {
 	color: #ffffff;
-	font-weight: lighter;
 	text-align: center;
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 50px;
 	line-height: 1; 
 }
 .containerworkwithme p.wwm {
@@ -274,10 +258,20 @@ header /*.container*/ {
 	margin-bottom: 0px;
 	padding: 0px 50px 0px 50px;
 }
-
+.containerworkhistory h4 {
+	color: #0e3b5d;
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
 .containerworkhistory p {
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
 	margin: 0;
 }
+
 /*margin 0 to clean up  remove much this text-align...*/
 
 .containereducation {
@@ -286,7 +280,7 @@ header /*.container*/ {
 	margin-left: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding: 0px 50px 50fooopx 50px;
+	padding: 0px 50px 50px 50px;
 }
 .containereducation p {
 	padding: 0;
@@ -318,13 +312,11 @@ header /*.container*/ {
 	display: block;
 }
 .containerproject h1 {
-	margin-top: 100px;
-	text-shadow: 3px 3px #ffffff;
-	padding: 0px 0px 0px 20px;  /* top right bottom left*/ 
+	text-shadow: 3px 3px #ffffff; 
 }
 
 .containerproject {
-	/*background: url("../images/PortfolioBackground") top center no-repeat;*/
+	background: url("../images/PortfolioBackground") top center no-repeat;
 	background-size: cover;
 	text-align: center;
 }
@@ -342,7 +334,7 @@ footer /*.container*/ {
 	margin-left: auto;
 }
 .footertext2 {
-	padding: 0px 200px 0px 330px;  /* top right bottom left*/
+	padding: 25px 0px 0px 0px;  /* top right bottom left*/
 }
 .footercontactonly {
 	display: block;
@@ -399,7 +391,6 @@ footer /*.container*/ {
 .containerproj h4 {
 	font-family: copperplate;
 	color: #16191c;
-	text-decoration: bold;
 	text-align: center;
 	line-height: 1;
 }
@@ -550,24 +541,6 @@ footer /*.container*/ {
 .containerprojsetupW {
 	color: #ffffff;
 }
-
-
-
-
-/*attempt at hover over effect on project images*/
-.KRbuttonlink {
-	display: block;
-	width: 350px;
-	height: 350px;
-	background: url('images/DENVERFOODTRUCK.png') bottom;
-	text-indent: -99999px;
-}
-.KRbuttonlink:hover {
-	background-position: 0 0;
-}
-
-
-
 
 
 
