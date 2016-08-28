@@ -379,6 +379,7 @@ footer /*.container*/ {
 	display: block;
 	max-width: 320px;
 	margin: auto;
+	margin-bottom: 0;
 	padding: 0;
 
 }
@@ -422,7 +423,7 @@ footer /*.container*/ {
 	text-align: center;
 	margin: 0;
 	padding: 0;
-	padding: 0px 0px 0px 0px;  /* top right bottom left*/
+	padding: 0px 100px 0px 100px;  /* top right bottom left*/
 }
 .containerprojdetail {
 	text-align: center;
