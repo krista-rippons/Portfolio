@@ -272,7 +272,7 @@ header /*.container*/ {
 	margin-left: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 50px 0px 150px;
 }
 
 .containerworkhistory p {
@@ -286,7 +286,7 @@ header /*.container*/ {
 	margin-left: auto;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	padding: 0px 50px 50fooopx 50px;
+	padding: 0px 50px 50px 150px;
 }
 .containereducation p {
 	padding: 0;
