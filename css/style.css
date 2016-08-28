@@ -312,8 +312,15 @@ header /*.container*/ {
 .proj-link {
 	display: block;
 	margin: 20px 0;
-	
+	width: 350px;
+	height: 350px;
+	background: url('images/DENVERFOODTRUCK.png') bottom;
+	text-indent: -99999px;
 }
+.proj-link:hover {
+	background-position: 0 0;
+}
+
 .proj-img {
 	display: block;
 }
@@ -509,10 +516,10 @@ footer /*.container*/ {
 	background: #53c4c6;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
-.link {  /*???why not centered? why font size not working?*/
+.containerprojsetupW .link {  /*???why not centered? why font size not working?*/
 	display: block;
 	align: center
-	font-size: 72px;
+	font-size: 200px;
 }
 .iframe {  /*not working to center movie*/
 	display: block;
@@ -579,7 +586,7 @@ footer /*.container*/ {
 
 
 
-/*attempt at hover over effect on project images*/
+/*attempt at hover over effect on project images
 .KRbuttonlink {
 	display: block;
 	width: 350px;
@@ -589,7 +596,7 @@ footer /*.container*/ {
 }
 .KRbuttonlink:hover {
 	background-position: 0 0;
-}
+}  */
 
 
 
