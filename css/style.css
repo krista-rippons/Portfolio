@@ -314,13 +314,23 @@ header /*.container*/ {
 .proj-link {
 	display: block;
 	margin: 20px 0;
-	margin: 20px 0width: 350px;
+}
+
+/*.hover {
+	margin: 20px 0;
+	width: 350px;
 	height: 350px;
 	background: url('images/DENVERFOODTRUCK.png') bottom;
 	text-indent: -99999px;
 }
-.proj-link hover {
+.hover:hover {
 	background-position: 0 0;
+} 
+.hover h1 {
+		background-color: blue;
+}
+.hover:hover h1 {
+	background-color: grey;
 } */
 
 .proj-img {
