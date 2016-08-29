@@ -543,6 +543,10 @@ footer /*.container*/ {
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 	color: #ffffff;
 }
+.containerprojsetupAS h1 {	
+	font-style: italic;
+	font-weight: lighter;
+}
 .containerprojprocessAS {
 	color: #ffffff;
 	text-shadow: 1px 1px #000000;
