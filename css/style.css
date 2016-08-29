@@ -200,7 +200,9 @@ header /*.container*/ {
 	margin-bottom: 0;
 	padding: 0px 0px 0px 250px;
 }
-
+.containerhero p {
+	text-style: italic;
+}
 
 
 .sectiondivider {  
@@ -312,6 +314,9 @@ header /*.container*/ {
 .proj-link {
 	display: block;
 	margin: 20px 0;
+}	
+/* attempt at hover and click
+	margin: 20px 0;
 	width: 350px;
 	height: 350px;
 	background: url('images/DENVERFOODTRUCK.png') bottom;
@@ -319,7 +324,7 @@ header /*.container*/ {
 }
 .proj-link:hover {
 	background-position: 0 0;
-}
+} */
 
 .proj-img {
 	display: block;
@@ -341,7 +346,7 @@ header /*.container*/ {
 footer /*.container*/ {
 	background: #16191c;
 	background-size: 100%;
-	padding: 30px 0px 30px 0px;  /* top right bottom left*/
+	padding: 0px 0px 0px 0px;  /* top right bottom left*/
 	padding-left: 0px;
 	padding-right: 0px;
 	position: relative;
@@ -372,7 +377,7 @@ footer /*.container*/ {
 	background-size: cover;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 4em 0;
+	padding: 1em 0;
 	background: #16191c;
 }
 
