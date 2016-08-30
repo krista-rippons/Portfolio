@@ -338,15 +338,11 @@ header /*.container*/ {
 }
 .containerproject h1 {
 	margin-top: 100px;
-	text-shadow: 3px 3px #ffffff;
 	padding: 0px 0px 0px 20px;  /* top right bottom left*/ 
 }
 
 .containerproject {
-	/*background: url("../images/PortfolioBackground") top center no-repeat;*/
-	/*background-size: cover;*/
-	text-align: center;
-	padding: 55px 0px 0px 20px;  /* top right bottom left*/ 
+	padding: 55px 0px 0px 20px;  /* top right bottom left*/
 }
 
 
@@ -359,28 +355,26 @@ footer /*.container*/ {
 	position: relative;
 }
 .footertext {
+	display: inline block;
+	vertical-align: bottom;
+	width: 40%;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-}
-.footertext2 {
-	padding: 0px 200px 0px 330px;  /* top right bottom left*/
-}
-.footercontactonly {
-	display: block;
-	padding: 25px;
-	margin: 25px;
-}
+	margin: auto;
+	padding: 20px 0px 0px 0px;  /* top right bottom left*/
 
+}	
 
-
+.footertext p {
+	color: #ffffff;
+	font-style: lighter;
+	text-decoration: none;
+}
 /* CONTACT PAGE */
 .contactborder {
 	background: #f69224;
 	height: 6px;
 }
 .contact {
-	background: url("/images/blackbackgroundV1") alt="background"; /*doesn't work*/
 	background-size: cover;
 	margin-right: auto;
 	margin-left: auto;
