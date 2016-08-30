@@ -319,7 +319,10 @@ header /*.container*/ {
 	text-align: center;
 }
 .padding-0 {
-		padding: 0;
+	padding: 0;
+}
+.link {
+	padding: 75px 0px 0px 0px; /* top right bottom left*/
 }
 
 /* PROJECT IMAGES */
