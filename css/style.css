@@ -102,6 +102,8 @@ img {
 	margin: 0 2% 20px;
 }
 
+/* HEADER */
+
 header {
 	padding: 1em 0;
     height: auto;
@@ -124,7 +126,7 @@ header nav ul > li > a {
 	color: #ffffff;
 }
 
-/* BUTTONS c97518*/
+/* BUTTONS */
 
 .btn {
 	font-size: 14pt;
@@ -174,7 +176,7 @@ header nav ul > li > a {
 	text-align: center;
 }
 
-/* CONTAINERS */
+/* HEADER */
 
 
 header /*.container*/ {
@@ -185,13 +187,16 @@ header /*.container*/ {
 	padding-right: 0px;
 	margin: 0;
 	position: fixed;
-	top: 2px;
+	top: 0px;
 }
 .headertext h6 {
 	color:  #ffffff;
 	font-weight: lighter;
 	margin: 0;
 }
+
+/* CONTAINERS */
+
 .containerhero {
 	text-align: left;
 	margin-right: auto;
@@ -200,11 +205,9 @@ header /*.container*/ {
 	margin-bottom: 0;
 	padding: 0px 0px 0px 250px;
 }
-.containerhero p {
-	text-style: italic;
+.containerhero p.quote {
+	font-style: italic;
 }
-
-
 .sectiondivider {  
 	text-align: center;
 	padding: 0px;
@@ -215,8 +218,9 @@ header /*.container*/ {
 	padding-top: 100px;
 	margin-bottom: 0;
 	padding-bottom: 0;
-
 }
+
+/*  WORK WITH ME */
 
 .containerworkwithme {
 	background: #11456c;
@@ -261,12 +265,9 @@ header /*.container*/ {
 	background: #11456c;
 	padding: 75px 0px 75px 0px;  /* top right bottom left*/
 }
-.text-center {
-	text-align: center;
-}
-.padding-0 {
-		padding: 0;
-}
+
+
+/* WORK HISTORY */
 
 .containerworkhistory {
 	text-align: left;
@@ -276,11 +277,12 @@ header /*.container*/ {
 	margin-bottom: 0px;
 	padding: 0px 50px 0px 150px;
 }
-
 .containerworkhistory p {
 	margin: 0;
 }
 /*margin 0 to clean up  remove much this text-align...*/
+
+/* EDUCATION */
 
 .containereducation {
 	text-align: left;
@@ -304,12 +306,23 @@ header /*.container*/ {
 	margin-left: auto;
 	margin-bottom: 0;
 }
+
+/* ALIGNMENT */
+
 .text-right {
 	text-align: right
 }
 .top-margin {
 	margin-top: 25px;
 }
+.text-center {
+	text-align: center;
+}
+.padding-0 {
+		padding: 0;
+}
+
+/* PROJECT IMAGES */
 
 .proj-link {
 	display: block;
@@ -345,6 +358,7 @@ header /*.container*/ {
 	padding: 55px 0px 0px 20px;  /* top right bottom left*/
 }
 
+/* FOOTER */
 
 footer /*.container*/ {
 	background: #16191c;
@@ -360,16 +374,16 @@ footer /*.container*/ {
 	width: 40%;
 	text-align: center;
 	margin: auto;
-	padding: 20px 0px 0px 0px;  /* top right bottom left*/
-
+	padding: 20px 0px 0px 140px;  /* top right bottom left*/
 }	
-
 .footertext p {
 	color: #ffffff;
 	font-style: lighter;
 	text-decoration: none;
 }
+
 /* CONTACT PAGE */
+
 .contactborder {
 	background: #f69224;
 	height: 6px;
@@ -381,20 +395,12 @@ footer /*.container*/ {
 	padding: 1em 0;
 	background: #16191c;
 }
-
-.footer p {
-	font-size: 16pt;
-	text-align: left;
-	color: #ffffff;
-	margin-left: 200px;
-}
 .containercontact {
 	display: block;
 	max-width: 320px;
 	margin: auto;
 	margin-bottom: 0;
 	padding: 0;
-
 }
 .contact label {
 	color: white;
@@ -444,7 +450,6 @@ footer /*.container*/ {
 	padding: 0;
 	padding: 100px 0px 0px 0px;  /* top right bottom left*/
 }
-
 .containerprojsetup {
 	color: #ffffff;
 }
@@ -459,8 +464,8 @@ footer /*.container*/ {
  padding-top: 20px
 }
 
-
 /*DFTF*/
+
 .containerprojsetup {
 	color:  #ffffff;
 	text-shadow: 1px 1px #000000; 
@@ -485,7 +490,8 @@ footer /*.container*/ {
 	font-weight: lighter;
 }
 
-/*FRESHWAVE  16191c*/
+/*FRESHWAVE*/
+
 .containerprojsetupFW {
 	color: #ffffff;
 	text-shadow: 1px 1px #000000;  
@@ -506,8 +512,8 @@ footer /*.container*/ {
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
-
 /*SCHOOLDEETS*/
+
 .containerprojsetupSD {
 	color: #ffffff;
 	text-shadow: 1px 1px #000000;
@@ -537,7 +543,6 @@ footer /*.container*/ {
 	max-width: 100%
 }
 
-
 /*ARTISAN STYLE*/
 
 .containerprojsetupAS {	
@@ -564,8 +569,8 @@ footer /*.container*/ {
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
 
-
 /*POCKETS*/
+
 .containerprojsetupP {
 	background: #003764;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
@@ -587,8 +592,8 @@ footer /*.container*/ {
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 
-
 /*WINTERPR*/
+
 .containerprojsetupW {
 	background: #1e388d;  /*green alternative #acdb55*/
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
@@ -596,9 +601,6 @@ footer /*.container*/ {
 .containerprojsetupW {
 	color: #ffffff;
 }
-
-
-
 
 /*attempt at hover over effect on project images
 .KRbuttonlink {
