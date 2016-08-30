@@ -377,7 +377,7 @@ footer /*.container*/ {
 	width: 40%;
 	text-align: center;
 	margin: auto;
-	padding: 20px 0px 0px 140px;  /* top right bottom left*/
+	padding: 20px 0px 0px 0px;  /* top right bottom left*/
 }	
 .footertext p {
 	color: #ffffff;
