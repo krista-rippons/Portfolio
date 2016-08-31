@@ -1,4 +1,4 @@
- html, body{
+z html, body{
    overflow-x: hidden;
  }
  body {
@@ -198,12 +198,10 @@ header /*.container*/ {
 /* CONTAINERS */
 
 .containerhero {
-	text-align: left;
 	margin-right: auto;
-	margin-left: auto;
+	margin-left: 150px;
 	margin-top: 125px;
 	margin-bottom: 0;
-	padding: 0px 0px 0px 250px;
 }
 .containerhero p.quote {
 	font-style: italic;
@@ -215,7 +213,7 @@ header /*.container*/ {
 }
 .sectiondividerHOME {  
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 65px;
 	margin-bottom: 0;
 	padding-bottom: 0;
 }
