@@ -223,14 +223,22 @@ header /*.container*/ {
 .containerworkwithme {
 	background: #11456c;
 }
-.containerworkwithme h1, h4 {
+.containerworkwithme h1 {
 	color: #ffffff;
 	font-weight: lighter;
 	text-align:  center;
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 10px;
+	line-height:.2; 
+}
+.containerworkwithme h4 {
+	color: #ffffff;
+	font-weight: lighter;
+	text-align:  center;
+	margin-right: auto;
+	margin-left: auto;
 	line-height: 1; 
+	padding-top: 25px;
 }
 .containerworkwithme h3 {
 	color: #ffffff;
@@ -285,7 +293,7 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: 75px;
 	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-bottom: 25px;
 }
 .containereducation p {
 	padding: 0;
