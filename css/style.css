@@ -466,7 +466,7 @@ footer /*.container*/ {
 	margin: 20px auto; 
 }
 .containerprojassets img{
- max-width:  1200px;
+ max-width:  100%;
  padding-top: 20px
 }
 
