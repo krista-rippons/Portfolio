@@ -407,6 +407,7 @@ footer /*.container*/ {
 	padding: 20px 0px 0px 0px;  /* top right bottom left*/
 }	
 .footertext p {
+	font-size: 16px;
 	color: #ffffff;
 	font-style: lighter;
 	text-decoration: none;
