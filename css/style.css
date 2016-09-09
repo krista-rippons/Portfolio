@@ -3,13 +3,13 @@ z html, body{
  }
  body {
    text-align: left;
-   font-family: "Raleway", Copperplate, Candara;
+   font-family: "Raleway", "Playfair";
    font color: #16191c;
    line-height:  1.4;
  }
  h1, h2, h3, h4 {
    text-align: left;
-   font-family: "Raleway", Copperplate; Candara;
+   font-family: "Raleway", "Playfair";
    font color: #16191c;
  }
  h1 {
@@ -34,15 +34,17 @@ z html, body{
    line-height: 1.1;
  }
  h4 {
-   	font-family: copperplate;
+	max-width: 70%;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 24px;
 	color: #16191c;
 	text-align: center;
 	line-height: 1;
+	margin: auto;
+	padding-top: 25px;
 }
   h5 {
-   font-size: 24px; 
+   font-size: 30px; 
    text-align: center; 
    font-weight: bold;
    margin-top: 10px;
@@ -58,14 +60,36 @@ z html, body{
  }
 
 p {
+   max-width: 60%;
+   margin: auto;
    text-align: left;
-   font-size: 16px;  
+   font-size: 20px;  
    font-weight: 100;
+   line-height: 2.2;
 }
+
+p2 {
+   max-width: 70%;
+   margin: auto;
+   text-align: left;
+   font-size: 14px;  
+   font-weight: 100;
+   line-height: 2.2;
+}
+p3 {
+   max-width: 50%;
+   margin: auto;
+   text-align: left;
+   font-size: 18px;  
+   font-weight: 100;
+   line-height: 2.2;
+}
+
 p.bold {
    text-decoration: bold;
    text-align: left;
    font-size: 16px;  
+   line-height: 1.8;
    font-weight: 100;
 }
 img {
@@ -427,12 +451,9 @@ footer /*.container*/ {
 /* PROJECT PAGES */
 
 .containerproj h4 {
-	font-family: copperplate;
-	font-size: 20px;
-	font-weight: bold;
 	color: #16191c;
 	text-align: center;
-	line-height: 1;
+	line-height: 1.8;
 }
 .containerproj p {
 	text-align: center;
@@ -474,20 +495,17 @@ footer /*.container*/ {
 
 .containerprojsetup {
 	color:  #ffffff;
-	text-shadow: 1px 1px #000000; 
 	background: #8a1b1f;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojprocess {
 	float: center;  
 	color:  #ffffff;
-	text-shadow: 1px 1px #000000; 
 	background: #e0641f;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresults{
 	color: #ffffff;
-	text-shadow: 1px 1px #000000; 
 	background: #2abb58;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }	
@@ -500,20 +518,17 @@ footer /*.container*/ {
 
 .containerprojsetupFW {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;  
 	background: #358d97;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 
 }
 .containerprojprocessFW {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000; 
 	background: #e05920;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsFW{
 	color: #ffffff;	
-	text-shadow: 1px 1px #000000; 
 	background: #1596a5;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
@@ -522,19 +537,16 @@ footer /*.container*/ {
 
 .containerprojsetupSD {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #0a769a;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojprocessSD {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #ef6c34;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsSD{
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #53c4c6;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
@@ -553,7 +565,6 @@ footer /*.container*/ {
 
 .containerprojsetupAS {	
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #42214a;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 	color: #ffffff;
@@ -564,13 +575,11 @@ footer /*.container*/ {
 }
 .containerprojprocessAS {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #845864;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
 .containerprojresultsAS{
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #108462;
 	padding: 50px 50px 50px 50px;   /* top right bottom left*/
 }
@@ -583,17 +592,14 @@ footer /*.container*/ {
 }
 .containerprojsetupP {
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 }
 .containerprojprocessP {
 	color:  #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #DE330E;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
 .containerprojresultsP{
 	color: #ffffff;
-	text-shadow: 1px 1px #000000;
 	background: #658396;
 	padding: 50px 50px 50px 50px;  /* top right bottom left*/
 }
