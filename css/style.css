@@ -206,7 +206,8 @@ header nav ul > li > a {
 header /*.container*/ {
 	background: #16191c;
 	background-size: 100%;
-	padding: 0;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin: 0;
@@ -407,7 +408,8 @@ footer /*.container*/ {
 	padding: 20px 0px 0px 0px;  /* top right bottom left*/
 }	
 .footertext p {
-	font-size: 16px;
+	font-size: 14px;
+	padding-bottom: 10px;
 	color: #ffffff;
 	font-style: lighter;
 	text-decoration: none;
