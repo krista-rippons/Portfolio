@@ -402,17 +402,19 @@ footer /*.container*/ {
 .footertext {
 	display: inline block;
 	vertical-align: bottom;
-	width: 40%;
+	width: 60%;
 	text-align: center;
 	margin: auto;
 	padding: 20px 0px 0px 0px;  /* top right bottom left*/
 }	
 .footertext p {
-	font-size: 14px;
+	font-size: 12px;
 	padding-bottom: 10px;
 	color: #ffffff;
 	font-style: lighter;
 	text-decoration: none;
+	width: 60%;
+	text-align: center;
 }
 
 /* CONTACT PAGE */
