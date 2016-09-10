@@ -19,6 +19,17 @@ z html, body{
    margin-bottom: 30px;
    line-height: 1.1;
  }
+ h1.About {
+   font-size: 48px; 
+   font-weight: bold;
+   color: #f69224;
+   padding-left: 0px;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   line-height: 1.1;
+   margin: auto;
+   text-align: left;
+ }
  h2 {
    	font-size: 30px; 
 	font-weight: lighter;
@@ -60,9 +71,7 @@ z html, body{
  }
 
 p {
-   max-width: 60%;
-   margin: auto;
-   text-align: left;
+	text-align: left;
    font-size: 20px;  
    font-weight: 100;
    line-height: 2.2;
@@ -77,13 +86,13 @@ p2 {
    line-height: 2.2;
 }
 p3 {
-   max-width: 50%;
+   max-width: 60%;
    margin: auto;
    text-align: left;
    font-size: 18px;  
    font-weight: 100;
    line-height: 2.2;
-}
+} 
 
 p.bold {
    text-decoration: bold;
@@ -91,6 +100,29 @@ p.bold {
    font-size: 16px;  
    line-height: 1.8;
    font-weight: 100;
+}
+p.wwm {
+   margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
+}
+p.center {
+	max-width: 60%;
+   margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
+}
+p.text-center {
+	max-width: 60%;
+   margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
 }
 img {
 	max-width: 100%
@@ -222,12 +254,64 @@ header /*.container*/ {
 
 /* CONTAINERS */
 
-.containerhero {
+.containerhero {  /*#dedfe0   mg-i5a4671.jpg  KristaPorfolioPhotov2.png height:100% */
+	background: url("../images/KristaPorfolioPhotov3.png") no-repeat 0 0 scroll;
 	margin-right: auto;
-	margin-left: 150px;
-	margin-top: 125px;
+	background-size: 100% 100%;
+    height:725px;
+    width:100%;
+	/*margin-left: 75px;
+	margin-top: 75px;
+	margin-bottom: 0;*/
+}
+.containerhero p.ME {  
+   font-size: 48px; 
+   font-weight: bold;
+   color: #f69224;
+   padding-left: 0px;
+   padding-top: 200px;
+   padding-bottom: 25px;
+   margin-left: 0;
+   line-height: 1.1;
+   margin: auto;
+   text-align: left;
+}
+.containerhero p {  
+	color: #ffffff;
+	max-width: 60%;
+   margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
+   padding-top: 10px;
+}
+.containerMyStory{
+	align: center;
+	margin-right: auto;
+	margin-left: 75px;
+	margin-top: 75px;
 	margin-bottom: 0;
 }
+.containerMyStory p {
+   margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
+}
+.containerMyStory h1.About {
+   font-size: 24px; 
+   font-weight: bold;
+   color: #f69224;
+   max-width: 60%;
+   margin: auto; 
+   margin-left: 0px;
+}
+/*.containerhero img{
+	background: cover;
+	width: 100%;
+} */
 .containerhero p.quote {
 	font-style: italic;
 }
@@ -237,13 +321,14 @@ header /*.container*/ {
 	margin: 0px;
 }
 .sectiondividerHOME {  
-	text-align: center;
+	max-width: 60%
+	margin: auto;
 	padding-top: 65px;
-	margin-bottom: 0;
-	padding-bottom: 0;
+	margin: auto;
 }
 
 /*  WORK WITH ME */
+
 
 .containerworkwithme {
 	background: #11456c;
@@ -255,6 +340,17 @@ header /*.container*/ {
 	margin-right: auto;
 	margin-left: auto;
 	line-height:.2; 
+	max-width: 60%;
+    margin: auto; 
+    padding-bottom: 50px;
+}
+ .containerworkwithme h1.About {
+   font-size: 24px; 
+   font-weight: bold;
+   color: #f69224;
+   max-width: 60%;
+   margin: auto; 
+   padding-bottom: 50px;
 }
 .containerworkwithme h4 {
 	color: #ffffff;
@@ -268,28 +364,19 @@ header /*.container*/ {
 .containerworkwithme h3 {
 	color: #ffffff;
 	text-align:  left;
+	line-height: 1; 
 	margin-right: auto;
 	margin-left: auto;
-	line-height: 1; 
-	margin: 0;
-}
-.containerworkwithme p {
-	color: #ffffff;
-	font-weight: lighter;
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	margin-bottom: 50px;
-	line-height: 1; 
 }
 .containerworkwithme p.wwm {
 	font-weight: lighter;
 	font-size: 16px;
 	color: #ffffff;
 	text-align: left;
-	margin-right: auto;
-	margin-left: auto;
-	line-height: 1; 
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 1.2; 
+	margin-left: 0px;
 }
 .containerworkwithmeicons {
 	background: #11456c;
@@ -298,6 +385,15 @@ header /*.container*/ {
 
 
 /* WORK HISTORY */
+
+ .containerworkhistory h1.About {
+   font-size: 14px; 
+   font-weight: bold;
+   color: #f69224;
+   line-height: 1.1;
+   max-width: 60%;
+   margin: auto; 
+}
 
 .containerworkhistory {
 	text-align: left;
