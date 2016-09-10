@@ -395,11 +395,14 @@ header /*.container*/ {
 }
 
 .containerworkhistory {
-	text-align: left;
+	text-align: center;
 	margin-right: auto;
 	margin-left: 75px;
 	margin-top: 0px;
 	margin-bottom: 0px;
+}
+.containerworkhistory h1{
+	text-align: center;
 }
 .containerworkhistory p {
 	margin: 0;
