@@ -20,16 +20,13 @@ z html, body{
    line-height: 1.1;
  }
  h1.About {
+   max-width: 70%;
+   margin: auto;
    font-size: 48px; 
    font-weight: bold;
    color: #f69224;
-   padding-left: 0px;
-   padding-top: 0px;
    padding-bottom: 25px;
    line-height: 1.1;
-   margin: auto;
-   text-align: left;
-
  }
  h1.WWM {
    font-size: 24px; 
@@ -87,23 +84,20 @@ p {
    font-weight: 100;
    line-height: 2.2;
 }
-
 p2 {
    color:  #ffffff;
    padding-left: 325px;
    font-size: 14px;  
    font-weight: 100;
    line-height: 2.2;
-}
+} 
 p3 {
-	max-width: 70%;
-	font-weight: bold;
-	font-size: 24px;
-	color: #16191c;
-	text-align: center;
-	line-height: 1;
+	max-width: 60%;
 	margin: auto;
-	padding-top: 25px;
+	text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
 } 
 
 p.bold {
@@ -114,7 +108,8 @@ p.bold {
    font-weight: 100;
 }
 p.wwm {
-   margin: auto;
+  	max-width: 60%;
+	margin: auto;
    text-align: left;
    font-size: 20px;  
    font-weight: 100;
@@ -287,7 +282,7 @@ header /*.container*/ {
    margin: auto;
    text-align: left;
 }
-.containerhero p {  
+.containerhero p {
 	color: #ffffff;
    margin: auto;
    text-align: left;
@@ -298,7 +293,7 @@ header /*.container*/ {
    padding-top: 10px;
 }
 .containerMyStory{
-	max-width: 80%;
+	max-width: 60%;
     margin: auto;
     align: center;
 	margin-right: auto;
@@ -311,6 +306,7 @@ header /*.container*/ {
    font-size: 20px;  
    font-weight: 100;
    line-height: 2.2;
+   padding-bottom: 0;
 }
 .containerMyStory h1.About {
    font-size: 24px; 
