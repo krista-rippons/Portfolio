@@ -53,6 +53,7 @@ z html, body{
    line-height: 1.1;
  }
  h4 {
+	font-family: Playfair;
 	max-width: 70%;
 	font-weight: bold;
 	font-size: 24px;
@@ -85,8 +86,7 @@ p {
    line-height: 2.2;
 }
 p2 {
-   color:  #ffffff;
-   padding-left: 325px;
+   color:  ##16191c;
    font-size: 14px;  
    font-weight: 100;
    line-height: 2.2;
@@ -114,6 +114,15 @@ p.wwm {
    font-size: 20px;  
    font-weight: 100;
    line-height: 2.2;
+}
+p.italic {
+  	max-width: 60%;
+	margin: auto;
+   text-align: left;
+   font-size: 20px;  
+   font-weight: 100;
+   line-height: 2.2;
+   text-decoration: italic;
 }
 p.center {
 	max-width: 60%;
