@@ -25,6 +25,12 @@ z html, body{
    font-size: 48px; 
    font-weight: bold;
    color: #f69224;
+   line-height: 1.1;
+ }
+  h1.About2 {
+   margin: auto;
+   font-size: 18px; 
+   color: #11456c;
    padding-bottom: 25px;
    line-height: 1.1;
  }
@@ -105,6 +111,10 @@ p3 {
    font-size: 20px;  
    font-weight: 100;
    line-height: 2.2;
+   text-decoration: none;
+} 
+p3.underline {
+	text-decoration: underline;
 } 
 
 p.bold {
@@ -208,7 +218,7 @@ header nav ul > li {
 	display: inline-block;
 }
 header nav ul > li > a {
-	color: #ffffff;
+	color: #16191c;
 }
 
 /* BUTTONS */
@@ -353,7 +363,6 @@ header /*.container*/ {
 .sectiondividerHOME {  
 	max-width: 60%
 	margin: auto;
-	padding-top: 65px;
 	margin: auto;
 }
 
