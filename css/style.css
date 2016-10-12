@@ -3,13 +3,13 @@ z html, body{
  }
  body {
    text-align: left;
-   font-family: "Raleway", "Playfair";
+   font-family: "Ubuntu";
    font color: #16191c;
    line-height:  1.4;
  }
  h1, h2, h3, h4 {
    text-align: left;
-   font-family: "Raleway", "Playfair";
+   font-family: "Ubuntu";
    font color: #16191c;
  }
  h1 {
@@ -58,8 +58,9 @@ z html, body{
    margin-bottom: 10px;
    line-height: 1.1;
  }
+/* apply yto H4 Playfair; */
  h4 {
-	font-family: Playfair;
+	font-family: 
 	max-width: 70%;
 	font-weight: bold;
 	font-size: 24px;
